@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Create user</title>
+</head>
+<body>
+<form action="#" th:action="@{/file-create}" th:object="${file}" method="post">
+    <label for="FileName">Название</label>
+    <input type="text" th:field="*{FileName}" id="FileName" placeholder="FileName">
+    <label for="FilePath">Путь</label>
+    <input type="text" th:field="*{FilePath}" id="FilePath" placeholder="FilePath">
+    <input type="submit" value="Создать">
+</form>
+</body>
+</html>
