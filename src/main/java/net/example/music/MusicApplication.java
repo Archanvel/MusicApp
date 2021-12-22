@@ -1,13 +1,13 @@
-package net.example.cheltuieapp;
+package net.example.music;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CheltuieliApplication {
+public class MusicApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CheltuieliApplication.class, args);
+		SpringApplication.run(MusicApplication.class, args);
 	}
 
 }

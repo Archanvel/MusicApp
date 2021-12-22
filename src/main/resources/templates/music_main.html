@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Музыка</title>
+</head>
+<body>
+<div th:switch="${musics}">
+    <div th:case="*">
+        <table>
+            <thead>
+            <tr>
+                <th>Номер</th>
+                <th>Автор</th>
+                <th>Название</th>
+                <th>Дата</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="music : ${musics}">
+                <td th:text="${music.idsong}"></td>
+                <td th:text="${music.autorsong}"></td>
+                <td th:text="${music.namesong}"></td>
+                <td th:text="${music.date}"></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+</body>
+</html>

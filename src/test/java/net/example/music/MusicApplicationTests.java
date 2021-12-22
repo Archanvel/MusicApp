@@ -1,10 +1,10 @@
-package net.example.cheltuieapp;
+package net.example.music;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CheltuieliApplicationTests {
+class MusicApplicationTests {
 
 	@Test
 	void contextLoads() {
