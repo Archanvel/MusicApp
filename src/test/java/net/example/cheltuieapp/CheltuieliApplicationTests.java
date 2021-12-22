@@ -1,10 +1,10 @@
-package net.example.springbootdemo;
+package net.example.cheltuieapp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringbootdemoApplicationTests {
+class CheltuieliApplicationTests {
 
 	@Test
 	void contextLoads() {
